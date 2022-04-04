@@ -1,0 +1,21 @@
+{
+  "name": "03_bases",
+  "version": "0.0.1",
+  "description": "Ejemplo de tablas de multiplicar salvadas en archivo de texto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "b3": "node app --base=3",
+    "b10": "node app --base=10",
+    "b20": "node app --base=20"
+  },
+  "author": "Ruben Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
